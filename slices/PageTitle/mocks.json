@@ -1,0 +1,29 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "PageTitle",
+    "primary": {
+      "section": [
+        {
+          "type": "heading5",
+          "text": "Exploit strategic synergies",
+          "spans": []
+        }
+      ],
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Repurpose open-source e-markets",
+          "spans": []
+        }
+      ],
+      "sectionId": "productize transparent networks",
+      "class": "incubate dot-com paradigms"
+    },
+    "items": [],
+    "slice_type": "page_title"
+  }
+]
