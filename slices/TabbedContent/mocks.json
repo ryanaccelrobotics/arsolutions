@@ -1,0 +1,78 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "TabbedContent",
+    "primary": {
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Monetize seamless e-business",
+          "spans": []
+        }
+      ],
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Ex sunt nostrud proident labore sunt deserunt consectetur ea fugiat culpa nostrud nulla amet est.",
+          "spans": []
+        }
+      ],
+      "sectionId": "empower killer deliverables",
+      "class": "engage open-source e-business"
+    },
+    "items": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "linkLabel": "expedite end-to-end channels",
+        "activeClass": "reintermediate B2B technologies"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "linkLabel": "implement frictionless deliverables",
+        "activeClass": "engage dynamic vortals"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "linkLabel": "mesh dot-com e-markets",
+        "activeClass": "incentivize end-to-end deliverables"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "linkLabel": "reintermediate 24/365 e-tailers",
+        "activeClass": "deliver integrated synergies"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "linkLabel": "scale compelling solutions",
+        "activeClass": "utilize B2C content"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "linkLabel": "synthesize customized infomediaries",
+        "activeClass": "seize global vortals"
+      }
+    ],
+    "slice_type": "tabbed_content"
+  }
+]

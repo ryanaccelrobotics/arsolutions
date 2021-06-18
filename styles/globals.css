@@ -281,7 +281,10 @@ a:hover {
 
 /* LOCATION */
 .location {
-  @apply my-20;
+  @apply my-20 hidden;
+}
+.location.selected {
+  @apply block;
 }
 .location .container {
   @apply flex relative justify-end;
@@ -296,4 +299,26 @@ a:hover {
 }
 .location .gallery-images {
   @apply w-4/6;
+}
+
+
+
+.tabbed-content {}
+.tabbed-content ul {}
+.tabbed-content ul li {}
+.tabbed-content ul li a {
+  @apply opacity-50;
+}
+.tabbed-content ul li a.selected,
+.tabbed-content ul li a:hover {
+  @apply opacity-100 no-underline border-b border-arYellow;
+}
+
+
+/* CONTACT US */
+.contact-us {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.contact-us .container {
+  @apply py-20;
 }

@@ -1,0 +1,63 @@
+{
+  "TabbedContent": {
+    "primary": {
+      "text": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "sectionId": {
+        "content": null
+      },
+      "class": {
+        "content": null
+      }
+    },
+    "items": {
+      "linkLabel": {
+        "content": null
+      },
+      "activeClass": {
+        "content": null
+      }
+    }
+  },
+  "TabbedCarousel": {
+    "primary": {
+      "sectionId": {
+        "content": null
+      },
+      "class": {
+        "content": null
+      },
+      "carouselSubTitle": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "carouselTitle": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "carouselDescription": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "activeClass": {
+        "content": null
+      }
+    }
+  }
+}
