@@ -5,12 +5,6 @@ import { Link } from 'prismic-reactjs'
 const FeaturedImage = ({ slice }) => (
   <section id={slice.primary.sectionId} className={`featured-image-section ` + slice.primary.class}>
     <div className="container">
-      <div className="featured-image">
-        <img
-          src={slice.primary.featuredImage.url}
-          alt={slice.primary.featuredImage.alt}
-        />
-      </div>
       <div className="featured-text">
         <div className="brow">
           <RichText render={slice.primary.subTitle} />
@@ -22,6 +16,12 @@ const FeaturedImage = ({ slice }) => (
             <span>{slice.primary.linkLabel}</span>
           </a>
         </p>
+      </div>
+      <div className="featured-image">
+        <img
+          src={slice.primary.featuredImage.url}
+          alt={slice.primary.featuredImage.alt}
+        />
       </div>
     </div>
   </section>

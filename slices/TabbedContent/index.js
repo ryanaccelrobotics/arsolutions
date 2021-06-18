@@ -40,11 +40,13 @@ const TabbedContent = ({ slice }) => {
       <div className="container">
         <RichText render={slice.primary.title} />
         <RichText render={slice.primary.text} />
-        <ul>
-          {
-            slice?.items?.map((item, index) => <LinkItem item={item} index={index} key={index} />)
-          }
-        </ul>
+        <div className="tabbed-content-nav">
+          <ul>
+            {
+              slice?.items?.map((item, index) => <LinkItem item={item} index={index} key={index} />)
+            }
+          </ul>
+        </div>
       </div>
     </section>
   )

@@ -135,6 +135,7 @@ a:hover {
 }
 
 .container {
+  @apply px-2.5;
   margin: 0 auto;
 }
 @screen md { /* 768px */
@@ -149,6 +150,7 @@ a:hover {
 }
 @screen lg { /* 1024px */
   .container {
+    @apply px-0;
     width: 960px;
   }
 }
@@ -189,8 +191,24 @@ a:hover {
   display: block;
 }
 
+.btn {
+  @apply bg-black text-white inline-block rounded-full py-5 px-8 uppercase font-semibold text-smd;
+}
+.btn:after {
+  @apply ml-2.5;
+  content: '';
+  display: inline-block;
+  width: 13.6px;
+  height: 8px;
+  background: url('/images/icon-arrow-right-white.svg') 0 0 no-repeat;
+  background-size: 13.6px 8px;
+}
+
 /* HEADER */
-.logo {
+.site-header {
+  @apply pt-16;
+}
+.site-header .logo {
   display: block;
   width: 80px;
   height: 41.91px;
@@ -200,7 +218,7 @@ a:hover {
 }
 
 .main {
-  @apply py-20;
+  @apply pt-20;
 }
 
 /* PAGE TITLE */
@@ -208,25 +226,47 @@ a:hover {
   @apply py-20;
 }
 .page-title h1 {
-  @apply w-3/4;
+  @apply w-3/4 mt-10;
 }
 
 /* FORMATS */
 .formats {
-  @apply pt-20 pb-96 -mb-96;
+  @apply py-10;
   background-color: #f7f7f7;
 }
+@screen lg {
+  .formats {
+    @apply pt-20 pb-96 -mb-96;
+  }
+}
 .formats .container {
-  @apply flex;
+}
+@screen lg {
+  .formats .container {
+    @apply flex;
+  }
 }
 .formats .gallery-text {
-  @apply w-1/2 pb-20;
+  @apply pb-10;
+}
+@screen lg {
+  .formats .gallery-text {
+    @apply w-1/2 pb-20;
+  }
 }
 .formats .gallery-items {
-  @apply w-1/2 flex items-center;
+}
+@screen lg {
+  .formats .gallery-items {
+    @apply w-1/2 flex px-10 items-center;
+  }
 }
 .formats .gallery-item {
-  @apply w-1/3 mx-10;
+}
+@screen lg {
+  .formats .gallery-item {
+    @apply w-1/3 mx-10;
+  }
 }
 
 /* FORMAT */
@@ -234,13 +274,26 @@ a:hover {
   @apply mb-10;
 }
 .format .container {
-  @apply flex;
+}
+@screen lg {
+  .format .container {
+    @apply flex;
+  }
 }
 .format .gallery-text {
-  @apply w-1/2 bg-white p-20 pr-32 relative;
+}
+@screen lg {
+  .format .gallery-text {
+    @apply relative w-1/2 bg-white p-20 pr-32;
+  }
 }
 .format .gallery-text h5 {
-  @apply brow absolute -left-5 top-28;
+  @apply brow;
+}
+@screen lg {
+  .format .gallery-text h5 {
+    @apply absolute -left-5 top-28;
+  }
 }
 .format .gallery-text ul {
   @apply list-none pl-0 font-semibold text-base;
@@ -250,33 +303,54 @@ a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
 }
-.format .gallery-images {
-  @apply w-1/2;
+@screen lg {
+  .format .gallery-images {
+    @apply w-1/2;
+  }
 }
 
 /* OBB */
 .obb {
-  @apply my-10;
+  @apply my-20;
 }
 .obb .container {
-  @apply flex content-end;
+}
+@screen lg {
+  .obb .container {
+    @apply grid grid-cols-2 gap-0;
+  }
 }
 .obb .featured-image {
-  @apply w-1/2;
+  @apply bg-black;
 }
 .obb .featured-text {
-  @apply w-1/2 p-20 bg-black text-white mt-20;
+  @apply p-10 bg-black text-white;
+}
+@screen lg {
+  .obb .featured-text {
+    @apply p-20 mt-20;
+  } 
 }
 
-.locations {}
+/* LOCATIONS */
+.locations {
+  @apply my-20;
+}
+.locations .tabbed-content-nav {
+  @apply overflow-x-auto;
+}
 .locations ul {
-  @apply pl-0 list-none;
+  @apply pl-0 list-none flex;
 }
 .locations ul li {
-  @apply inline-block ml-5;
+  @apply ml-5;
 }
 .locations ul li:first-child {
   @apply ml-0;
+}
+.locations ul li a {
+  @apply whitespace-nowrap;
+
 }
 
 /* LOCATION */
@@ -287,18 +361,26 @@ a:hover {
   @apply block;
 }
 .location .container {
-  @apply flex relative justify-end;
-  background: url('/images/bg-pattern-1.svg') 0 0 no-repeat;
-  background-size: auto 100%;
 }
-.location .gallery-text {
-  @apply absolute w-2/6 z-10 bg-white p-10;
-  left: 5%;
-  top: 5%;
-  bottom: 5%;
+@screen lg {
+  .location .container {
+    @apply flex relative justify-end;
+    background: url('/images/bg-pattern-1.svg') 0 0 no-repeat;
+    background-size: auto 150%;
+  }
 }
-.location .gallery-images {
-  @apply w-4/6;
+@screen lg {
+  .location .gallery-text {
+    @apply absolute w-2/5 z-10 bg-white p-10;
+    left: 5%;
+    top: 5%;
+    bottom: 5%;
+  }
+}
+@screen lg {
+  .location .gallery-images {
+    @apply w-3/5;
+  }
 }
 
 
@@ -319,6 +401,74 @@ a:hover {
 .contact-us {
   background-color: rgba(0, 0, 0, 0.05);
 }
-.contact-us .container {
-  @apply py-20;
+.contact-us .container {}
+@screen lg {
+  .contact-us .container {
+    @apply py-20;
+  }
+}
+
+
+/* FOOTER */
+.site-footer {
+  @apply bg-black text-white py-20;
+}
+.site-footer a {
+  @apply text-white;
+}
+.site-footer .container {
+}
+
+.site-footer .logo {
+  display: block;
+  width: 293.87px;
+  height: 54.72px;
+  text-indent: -9999px;
+  background: url('/images/accel-robotics-logo-wht.svg') 0 0 no-repeat;
+  background-size: 293.87px 54.72px;
+}
+
+.site-footer nav {
+  @apply hidden;
+}
+
+.footer-menu {
+  @apply pb-20;
+}
+
+.site-sub-footer {
+  @apply border-t border-arDarkGray pt-5;
+}
+@screen lg {
+  .site-sub-footer {
+    @apply flex ;
+  }
+}
+
+@screen lg {
+  .footer-sub-menu {
+    @apply w-1/2;
+  }
+}
+
+.footer-sub-menu ul {
+  @apply list-none pl-0 text-sm;
+}
+
+.footer-social {
+  @apply flex;
+}
+@screen lg {
+  .footer-social {
+    @apply flex justify-end w-1/2;
+  } 
+}
+.footer-social ul {
+  @apply list-none pl-0;
+}
+.footer-social ul li {
+  @apply inline-block;
+}
+.footer-social ul li:nth-child(n+1) {
+  @apply ml-5;
 }

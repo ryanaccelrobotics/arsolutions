@@ -9,8 +9,10 @@ module.exports = {
     extend: {
       colors: {
         arYellow: '#E5C931',
+        arDarkGray: '#333',
       },
       fontSize: {
+        'smd': ['0.875rem', { lineHeight: '1' }],
         '8xl': ['5.0rem', { lineHeight: '1' }],
         '3xl': ['2.0rem', { lineHeight: '2.25'}],
         'sm': ['0.813rem', { lineHeight: '1.25'}],
