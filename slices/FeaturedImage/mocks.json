@@ -1,0 +1,50 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "ImageHighlight",
+    "primary": {
+      "subTitle": [
+        {
+          "type": "heading5",
+          "text": "Syndicate vertical bandwidth",
+          "spans": []
+        }
+      ],
+      "title": [
+        {
+          "type": "heading2",
+          "text": "Integrate dot-com applications",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Non officia ex reprehenderit ex laborum excepteur irure.",
+          "spans": []
+        }
+      ],
+      "link": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "linkLabel": "scale leading-edge functionalities",
+      "featuredImage": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
+      },
+      "sectionId": "cultivate dynamic web-readiness",
+      "class": "deploy sexy methodologies"
+    },
+    "items": [],
+    "slice_type": "featured_image"
+  }
+]

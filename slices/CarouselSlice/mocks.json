@@ -1,0 +1,129 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "CarouselSlice",
+    "primary": {
+      "gallerySubTitle": [
+        {
+          "type": "heading4",
+          "text": "Morph scalable platforms",
+          "spans": []
+        }
+      ],
+      "galleryTitle": [
+        {
+          "type": "heading2",
+          "text": "Enhance seamless users",
+          "spans": []
+        }
+      ],
+      "galleryDescription": [
+        {
+          "type": "paragraph",
+          "text": "Excepteur pariatur ipsum excepteur anim irure ea.",
+          "spans": []
+        }
+      ],
+      "sectionId": "facilitate impactful models",
+      "class": "whiteboard compelling platforms"
+    },
+    "items": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88?w=900&h=500&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Anim labore eu excepteur nostrud id ipsum irure proident mollit deserunt ad. Consequat eu ipsum non laboris laborum ipsum minim cillum Lorem elit consequat pariatur deserunt. Ex ut pariatur dolor fugiat qui cillum proident quis consequat amet laboris commodo quis.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "linkLabel": "revolutionize mission-critical users"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=900&h=500&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Proident aliquip labore amet cillum occaecat sit officia ipsum Lorem do eiusmod ad voluptate. Consectetur consequat ut laboris dolore duis.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "linkLabel": "iterate viral e-markets"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Ea laboris mollit aliquip do adipisicing ad reprehenderit aliqua magna ut. Mollit do dolore in Lorem eiusmod veniam eiusmod sint Lorem non commodo.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "linkLabel": "scale user-centric partnerships"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=900&h=500&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Quis id laborum sit amet anim mollit ipsum sint labore commodo magna consequat. Labore occaecat eu aute tempor est laboris laboris sit sit magna ut excepteur in.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "linkLabel": "mesh seamless synergies"
+      }
+    ],
+    "slice_type": "carousel_slice"
+  }
+]

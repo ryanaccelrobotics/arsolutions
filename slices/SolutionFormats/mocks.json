@@ -1,0 +1,137 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "SolutionFormats",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Engage real-time partnerships",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "heading1",
+          "text": "Repurpose vertical methodologies",
+          "spans": []
+        }
+      ],
+      "Image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
+      }
+    },
+    "items": [
+      {
+        "Title": [
+          {
+            "type": "heading1",
+            "text": "Implement out-of-the-box technologies",
+            "spans": []
+          }
+        ],
+        "Description": [
+          {
+            "type": "heading1",
+            "text": "Redefine efficient initiatives",
+            "spans": []
+          }
+        ],
+        "Image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "Title": [
+          {
+            "type": "heading1",
+            "text": "Benchmark clicks-and-mortar systems",
+            "spans": []
+          }
+        ],
+        "Description": [
+          {
+            "type": "heading1",
+            "text": "Orchestrate global supply-chains",
+            "spans": []
+          }
+        ],
+        "Image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "Title": [
+          {
+            "type": "heading1",
+            "text": "Engineer back-end relationships",
+            "spans": []
+          }
+        ],
+        "Description": [
+          {
+            "type": "heading1",
+            "text": "Architect cross-platform metrics",
+            "spans": []
+          }
+        ],
+        "Image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "Title": [
+          {
+            "type": "heading1",
+            "text": "Seize back-end infrastructures",
+            "spans": []
+          }
+        ],
+        "Description": [
+          {
+            "type": "heading1",
+            "text": "Expedite end-to-end markets",
+            "spans": []
+          }
+        ],
+        "Image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=900&h=500&fit=crop"
+        }
+      }
+    ],
+    "slice_type": "solution_formats"
+  }
+]

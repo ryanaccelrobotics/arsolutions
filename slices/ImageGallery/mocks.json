@@ -1,0 +1,152 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "ImageGallery",
+    "primary": {
+      "gallerySubTitle": [
+        {
+          "type": "heading4",
+          "text": "Brand B2C e-services",
+          "spans": []
+        }
+      ],
+      "galleryTitle": [
+        {
+          "type": "heading2",
+          "text": "Engage real-time interfaces",
+          "spans": []
+        }
+      ],
+      "galleryDescription": [
+        {
+          "type": "paragraph",
+          "text": "Incididunt nisi dolor eiusmod.",
+          "spans": []
+        }
+      ],
+      "sectionId": "incubate collaborative markets",
+      "class": "exploit seamless relationships"
+    },
+    "items": [
+      {
+        "image": {
+          "dimensions": {
+            "width": null,
+            "height": null
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=null&h=null&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Fugiat do Lorem nisi culpa. Aliqua ea cillum deserunt fugiat dolor cillum nisi labore non labore et ut ut deserunt.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "linkLabel": "deploy transparent channels"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": null,
+            "height": null
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=null&h=null&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Mollit et eiusmod adipisicing est sunt mollit non amet.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "linkLabel": "evolve integrated web services"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": null,
+            "height": null
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=null&h=null&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Ullamco fugiat ex voluptate labore ea nulla esse cupidatat culpa tempor ex reprehenderit. Enim consequat pariatur reprehenderit occaecat.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "linkLabel": "embrace frictionless ROI"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": null,
+            "height": null
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=null&h=null&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Voluptate in velit sint eiusmod. Id laboris sit laboris eu qui aute ullamco veniam commodo est.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "linkLabel": "morph user-centric eyeballs"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": null,
+            "height": null
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=null&h=null&fit=crop"
+        },
+        "imageDescription": [
+          {
+            "type": "paragraph",
+            "text": "Culpa eiusmod labore occaecat quis id nisi aliquip quis incididunt dolor.",
+            "spans": []
+          }
+        ],
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "linkLabel": "revolutionize compelling mindshare"
+      }
+    ],
+    "slice_type": "image_gallery"
+  }
+]

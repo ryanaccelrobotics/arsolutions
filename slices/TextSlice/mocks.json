@@ -1,0 +1,27 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "TextSlice",
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Ex ea adipisicing sunt ipsum dolor laboris deserunt ullamco voluptate enim occaecat magna incididunt. Lorem quis tempor cillum eiusmod adipisicing cillum culpa proident consectetur ad. Nostrud nulla qui cillum irure fugiat pariatur elit qui quis nulla ipsum.",
+          "spans": []
+        }
+      ],
+      "link": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "linkLabel": "mesh open-source platforms",
+      "sectionId": "aggregate open-source content",
+      "class": "incentivize dot-com e-services"
+    },
+    "items": [],
+    "slice_type": "text_slice"
+  }
+]

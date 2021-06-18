@@ -1,0 +1,299 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'TTNormsPro-Regular';
+  src: url('/fonts/tt-norms-pro-regular.eot');
+  src: url('/fonts/tt-norms-pro-regular.eot?#iefix')
+      format('embedded-opentype'),
+    url("/fonts/tt-norms-pro-regular.woff2") format("woff2"),
+    url("/fonts/tt-norms-pro-regular.woff") format("woff"),
+    url("/fonts/tt-norms-pro-regular.ttf") format("truetype"),
+    url("/fonts/tt-norms-pro-regular.svg#youworkforthem") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTNormsPro-Medium';
+  src: url('/fonts/tt-norms-pro-medium.eot');
+  src: url('/fonts/tt-norms-pro-medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('/fonts/tt-norms-pro-medium.woff2') format('woff2'),
+    url('/fonts/tt-norms-pro-medium.woff') format('woff'),
+    url('/fonts/tt-norms-pro-medium.ttf') format('truetype'),
+    url('/fonts/tt-norms-pro-medium.svg#youworkforthem') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTNormsPro-DemiBold';
+  src: url('/fonts/tt-norms-pro-demibold.eot');
+  src: url('/fonts/tt-norms-pro-demibold.eot?#iefix')
+      format('embedded-opentype'),
+    url('/fonts/tt-norms-pro-demibold.woff2') format('woff2'),
+    url('/fonts/tt-norms-pro-demibold.woff') format('woff'),
+    url('/fonts/tt-norms-pro-demibold.ttf') format('truetype'),
+    url('/fonts/tt-norms-pro-demibold.svg#youworkforthem') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTNormsPro-ExtraBold';
+  src: url('/static/fonts/tt-norms-pro-extrabold.eot');
+  src: url('/static/fonts/tt-norms-pro-extrabold.eot?#iefix')
+      format('embedded-opentype'),
+    url('/static/fonts/tt-norms-pro-extrabold.woff2') format('woff2'),
+    url('/static/fonts/tt-norms-pro-extrabold.woff') format('woff'),
+    url('/static/fonts/tt-norms-pro-extrabold.ttf') format('truetype'),
+    url('/static/fonts/tt-norms-pro-extrabold.svg#youworkforthem') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {}
+
+body {
+    @apply bg-white;
+    font-family: 'TTNormsPro-Regular', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@screen lg {
+    body {
+        @apply text-lg leading-8;
+    }
+}
+
+h1 {
+    @apply mt-4 text-4xl;
+    font-family: 'TTNormsPro-Regular', Arial, sans-serif;
+    font-weight: bold;
+}
+@screen lg {
+    h1 {
+        @apply text-8xl;
+    }
+}
+
+h2 {
+    @apply mt-4 text-3xl;
+    font-family: 'TTNormsPro-Regular', Arial, sans-serif;
+    font-weight: bold;
+}
+@screen lg {
+    h2 {
+        @apply text-6xl;
+    }
+}
+
+h3 {
+    @apply mt-4 text-2xl;
+    font-family: 'TTNormsPro-Regular', Arial, sans-serif;
+    font-weight: bold;
+}
+@screen lg {
+    h3 {
+        @apply text-3xl;
+    }
+}
+
+h4 {
+    @apply uppercase text-xl;
+    font-family: 'TTNormsPro-Regular', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h5 {
+    @apply uppercase text-sm;
+    font-family: 'TTNormsPro-Regular', Arial, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    @apply my-5;
+}
+
+ul {
+    @apply pl-6;
+    list-style: disc;
+}
+
+li {
+    @apply mt-2 mb-2;
+}
+
+a {
+    @apply text-black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+  margin: 0 auto;
+}
+@screen md { /* 768px */
+  .container {
+    width: 748px;
+  }
+}
+@screen mdlg { /* 960px */
+  .container {
+    width: 920px;
+  }
+}
+@screen lg { /* 1024px */
+  .container {
+    width: 960px;
+  }
+}
+@screen lgxl { /* 1140px */
+  .container {
+    width: 1024px;
+  }
+}
+@screen xl { /* 1280px */
+  .container {
+    width: 1140px;
+  }
+}
+@screen 2xl { /* 1440px */
+  .container {
+    width: 1280px;
+  }
+}
+@screen 3xl { /* 1680px */
+  .container {
+    width: 1440px;
+  }
+}
+@screen 4xl { /* 1920px */
+  .container {
+    width: 1600px;
+  }
+}
+
+.brow {
+  @apply flex items-center;
+}
+.brow:before {
+  @apply bg-arYellow mr-2.5;
+  content: ' ';
+  width: 40px;
+  height: 2px;
+  display: block;
+}
+
+/* HEADER */
+.logo {
+  display: block;
+  width: 80px;
+  height: 41.91px;
+  text-indent: -9999px;
+  background: url('/images/accel-robotics-logo.svg') 0 0 no-repeat;
+  background-size: 80px 41.91px;
+}
+
+.main {
+  @apply py-20;
+}
+
+/* PAGE TITLE */
+.page-title {
+  @apply py-20;
+}
+.page-title h1 {
+  @apply w-3/4;
+}
+
+/* FORMATS */
+.formats {
+  @apply pt-20 pb-96 -mb-96;
+  background-color: #f7f7f7;
+}
+.formats .container {
+  @apply flex;
+}
+.formats .gallery-text {
+  @apply w-1/2 pb-20;
+}
+.formats .gallery-items {
+  @apply w-1/2 flex items-center;
+}
+.formats .gallery-item {
+  @apply w-1/3 mx-10;
+}
+
+/* FORMAT */
+.format {
+  @apply mb-10;
+}
+.format .container {
+  @apply flex;
+}
+.format .gallery-text {
+  @apply w-1/2 bg-white p-20 pr-32 relative;
+}
+.format .gallery-text h5 {
+  @apply brow absolute -left-5 top-28;
+}
+.format .gallery-text ul {
+  @apply list-none pl-0 font-semibold text-base;
+}
+.format .gallery-text ul li {
+  @apply py-2.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.format .gallery-images {
+  @apply w-1/2;
+}
+
+/* OBB */
+.obb {
+  @apply my-10;
+}
+.obb .container {
+  @apply flex content-end;
+}
+.obb .featured-image {
+  @apply w-1/2;
+}
+.obb .featured-text {
+  @apply w-1/2 p-20 bg-black text-white mt-20;
+}
+
+.locations {}
+.locations ul {
+  @apply pl-0 list-none;
+}
+.locations ul li {
+  @apply inline-block ml-5;
+}
+.locations ul li:first-child {
+  @apply ml-0;
+}
+
+/* LOCATION */
+.location {
+  @apply my-20;
+}
+.location .container {
+  @apply flex relative justify-end;
+  background: url('/images/bg-pattern-1.svg') 0 0 no-repeat;
+  background-size: auto 100%;
+}
+.location .gallery-text {
+  @apply absolute w-2/6 z-10 bg-white p-10;
+  left: 5%;
+  top: 5%;
+  bottom: 5%;
+}
+.location .gallery-images {
+  @apply w-4/6;
+}
