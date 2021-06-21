@@ -19,7 +19,7 @@ const TabbedCarousel = ({ slice }) => {
   const itemClass = router.asPath.endsWith('/') ? slice.primary.activeClass : router.asPath.endsWith(`#` + slice.primary.sectionId) ? 'selected' : ''
 
   return (
-   <section id={slice.primary.sectionId} className={`image-gallery ` + slice.primary.class + ` ` + itemClass}>
+   <section /*id={slice.primary.sectionId}*/ className={`image-gallery ` + slice.primary.class + ` ` + itemClass}>
       <div className="container">
         <div className="gallery-text">
           <RichText render={slice.primary.carouselSubTitle} />

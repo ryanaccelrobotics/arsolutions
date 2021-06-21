@@ -15,6 +15,7 @@ const customLink = (type, element, content, children, index) => {
 
   const handleClick = (e) => {
     e.preventDefault()
+    this.props.handleClick(this.props.pageIndex)
     // console.log(element.data.url)
     router.push(element.data.url)
     // console.log(href)
@@ -36,7 +37,7 @@ const customLink = (type, element, content, children, index) => {
 
 const TabbedContent = ({ slice }) => {
   return (
-    <section id={slice.primary.sectionId} className={`tabbed-content ` + slice.primary.class}>
+    <section /*id={slice.primary.sectionId}*/ className={`tabbed-content ` + slice.primary.class}>
       <div className="container">
         <RichText render={slice.primary.title} />
         <RichText render={slice.primary.text} />
