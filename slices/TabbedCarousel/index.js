@@ -51,4 +51,4 @@ const TabbedCarousel = ({ slice }) => {
   )
 }
 
-export default TabbedCarousel
+export default TabbedCarousel;
