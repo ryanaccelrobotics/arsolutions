@@ -6,17 +6,15 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 
 const TabbedCarousel = ({ slice }) => {
-  //console.log(slice)
   const router = useRouter()
-  //console.log(router)
+  const itemClass = router.asPath.endsWith('/') ? slice.primary.activeClass : router.asPath.endsWith(`#` + slice.primary.sectionId) ? 'selected' : ''
 
+  // console.log(slice) 
+  // console.log(router)
   // console.log(`#` + slice.primary.sectionId);
   // console.log(router.asPath)
-
   // console.log(router.asPath.endsWith('/'))
   // console.log(router.asPath.endsWith(`#` + slice.primary.sectionId))
-
-  const itemClass = router.asPath.endsWith('/') ? slice.primary.activeClass : router.asPath.endsWith(`#` + slice.primary.sectionId) ? 'selected' : ''
 
   return (
    <section /*id={slice.primary.sectionId}*/ className={`image-gallery ` + slice.primary.class + ` ` + itemClass}>
