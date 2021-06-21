@@ -14,7 +14,7 @@ module.exports = {
       fontSize: {
         'smd': ['0.875rem', { lineHeight: '1' }],
         '8xl': ['5.0rem', { lineHeight: '1' }],
-        '3xl': ['2.0rem', { lineHeight: '2.25'}],
+        '3xl': ['2.0rem', { lineHeight: '1.25'}],
         'sm': ['0.813rem', { lineHeight: '1.25'}],
       },
       screens: {
