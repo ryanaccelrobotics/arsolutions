@@ -15,6 +15,7 @@ const customLink = (type, element, content, children, index) => {
 
   const handleClick = (e) => {
     e.preventDefault()
+    this.props.handleClick(this.props.pageIndex)
     // console.log(element.data.url)
     router.push(element.data.url)
     // console.log(href)
