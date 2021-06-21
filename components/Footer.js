@@ -3,10 +3,29 @@ import { RichText, Link } from 'prismic-reactjs'
 
 const Footer = ({ menu = [] }) => (
     <section className="site-footer">
-      <a href="/" className="logo">
-        {RichText.asText(menu.data.title)}
-      </a>
-      <Links menuLinks={menu.data.menu_links} />
+      <div className="container">
+        <a href="/" className="logo">
+          {RichText.asText(menu.data.title)}
+        </a>
+        <div className="footer-menu">
+          <Links menuLinks={menu.data.menu_links} />
+        </div>
+        <div className="site-sub-footer">
+          <div className="footer-sub-menu">
+            <ul>
+              <li>&copy; 2021 Accel Robotics</li>
+            </ul>
+          </div>
+          <div className="footer-social">
+            <ul>
+              <li><a href="#"><img src="images/icon-twitter.svg" alt="" /></a></li>
+              <li><a href="#"><img src="images/icon-facebook.svg" alt="" /></a></li>
+              <li><a href="#"><img src="images/icon-linkedin.svg" alt="" /></a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
     </section>
 );
 

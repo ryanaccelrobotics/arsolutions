@@ -1,18 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { RichText } from 'prismic-reactjs'
+import { useRouter } from 'next/router'
 import { Link } from 'prismic-reactjs'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
-const CarouselSlice = ({ slice }) => {
-  console.log(slice)
+const TabbedCarousel = ({ slice }) => {
+  //console.log(slice)
+  const router = useRouter()
+  //console.log(router)
+
+  // console.log(`#` + slice.primary.sectionId);
+  // console.log(router.asPath)
+
+  // console.log(router.asPath.endsWith('/'))
+  // console.log(router.asPath.endsWith(`#` + slice.primary.sectionId))
+
+  const itemClass = router.asPath.endsWith('/') ? slice.primary.activeClass : router.asPath.endsWith(`#` + slice.primary.sectionId) ? 'selected' : ''
+
   return (
-   <section id={slice.primary.sectionId} className={`image-gallery ` + slice.primary.class}>
+   <section id={slice.primary.sectionId} className={`image-gallery ` + slice.primary.class + ` ` + itemClass}>
       <div className="container">
         <div className="gallery-text">
-          <RichText render={slice.primary.gallerySubTitle} />
-          <RichText render={slice.primary.galleryTitle} />
-          <RichText render={slice.primary.galleryDescription} />
+          <RichText render={slice.primary.carouselSubTitle} />
+          <RichText render={slice.primary.carouselTitle} />
+          <RichText render={slice.primary.carouselDescription} />
         </div>
         <div className="gallery-images">
           <div className="gallery-items">
@@ -29,12 +41,6 @@ const CarouselSlice = ({ slice }) => {
                   src={item.image.url}
                   alt={item.image.alt}
                 />
-                {/* <RichText render={item.imageDescription}/>
-                <p>
-                  <a className="gallery-link" href={Link.url(item.link)}>
-                    <span>{item.linkLabel}</span>
-                  </a>
-                </p> */}
               </div>
             )}
           </Carousel>
@@ -45,4 +51,4 @@ const CarouselSlice = ({ slice }) => {
   )
 }
 
-export default CarouselSlice
+export default TabbedCarousel
