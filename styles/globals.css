@@ -381,12 +381,20 @@ a:hover {
     @apply w-1/2 pb-20;
   }
 }
+.formats .gallery-images {
+  @apply flex items-end;
+}
+@screen lg {
+  .formats .gallery-images {
+    @apply w-1/2 px-10 items-center;
+  }
+}
 .formats .gallery-items {
   @apply flex items-end;
 }
 @screen lg {
   .formats .gallery-items {
-    @apply w-1/2 px-10 items-center;
+    
   }
 }
 .formats .gallery-item {
