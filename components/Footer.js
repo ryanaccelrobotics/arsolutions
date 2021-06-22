@@ -18,9 +18,9 @@ const Footer = ({ menu = [] }) => (
           </div>
           <div className="footer-social">
             <ul>
-              <li><a href="https://www.twitter.com/accelrobotics"><img src="images/icon-twitter.svg" alt="" /></a></li>
-              <li><a href="https://www.facebook.com/accelrobotics"><img src="images/icon-facebook.svg" alt="" /></a></li>
-              <li><a href="https://www.linkedin.com/accelrobotics"><img src="images/icon-linkedin.svg" alt="" /></a></li>
+              <li><a href="https://www.twitter.com/accelrobotics" target="_blank"><img src="images/icon-twitter.svg" alt="" /></a></li>
+              <li><a href="https://www.facebook.com/accelrobotics" target="_blank"><img src="images/icon-facebook.svg" alt="" /></a></li>
+              <li><a href="https://www.linkedin.com/company/accel-robotics/" target="_blank"><img src="images/icon-linkedin.svg" alt="" /></a></li>
             </ul>
 
           </div>
