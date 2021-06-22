@@ -20,7 +20,7 @@ const Footer = ({ menu = [] }) => (
             <ul>
               <li><a href="https://www.twitter.com/accelrobotics"><img src="images/icon-twitter.svg" alt="" /></a></li>
               <li><a href="https://www.facebook.com/accelrobotics"><img src="images/icon-facebook.svg" alt="" /></a></li>
-              <li><a href="https://www.linkedin.com/accelrobotics"><img src="images/icon-linkedin.svg" alt="" /></a></li>
+              <li><a href="https://www.linkedin.com/company/accel-robotics/"><img src="images/icon-linkedin.svg" alt="" /></a></li>
             </ul>
 
           </div>
