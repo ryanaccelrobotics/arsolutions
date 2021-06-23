@@ -569,5 +569,50 @@ a:hover {
 }
 .tabbed-content ul li a.selected,
 .tabbed-content ul li a:hover {
-  @apply opacity-100 no-underline border-b border-arYellow;
+  @apply opacity-100 no-underline;
 }
+.tabbed-content ul li a.selected {
+  @apply border-b border-arYellow;
+}
+
+.carousel.carousel-slider .control-arrow {
+  top: auto !important;
+  bottom: 0;
+  padding: 0 !important;
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #fff !important;
+  opacity: 1 !important;
+}
+.carousel.carousel-slider .control-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+}
+.carousel.carousel-slider .control-arrow:before {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.carousel .control-prev.control-arrow {
+  left: auto !important;
+  right: 50px !important;
+  border-right: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+.carousel .control-prev.control-arrow:before {
+  display: block !important;
+  content: '' !important;
+  margin: 0 !important;
+  border: none !important;
+  background: url('/images/icon-arrow-left.svg') center center no-repeat !important;
+}
+
+.carousel .control-next.control-arrow {}
+.carousel .control-next.control-arrow:before {
+  display: block !important;
+  content: '' !important;
+  margin: 0 !important;
+  border: none !important;
+  background: url('/images/icon-arrow-right.svg') center center no-repeat !important;
+}
+
+.carousel .control-arrow:before,
+.carousel.carousel-slider .control-arrow:before {}
