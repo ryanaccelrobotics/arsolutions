@@ -511,14 +511,24 @@ a:hover {
 .locations .tabbed-content-nav {
   @apply overflow-x-auto;
 }
+@screen lg {
+  .locations .tabbed-content-nav {
+    @apply overflow-visible;
+  }
+}
 .locations ul {
   @apply pl-0 list-none flex;
 }
-.locations ul li {
-  @apply ml-5 uppercase font-semibold;
+@screen lg {
+  .locations ul {
+    @apply flex-wrap;
+  }
 }
-.locations ul li:first-child {
-  @apply ml-0;
+.locations ul li {
+  @apply mr-5 uppercase font-semibold;
+}
+.locations ul li:last-child {
+  @apply mr-0;
 }
 .locations ul li a {
   @apply whitespace-nowrap;
