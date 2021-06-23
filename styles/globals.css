@@ -619,5 +619,5 @@ a:hover {
   background: url('/images/icon-arrow-right.svg') center center no-repeat !important;
 }
 
-.carousel .control-arrow:before,
-.carousel.carousel-slider .control-arrow:before {}
+/* .carousel .control-arrow:before,
+.carousel.carousel-slider .control-arrow:before {} */
